@@ -1,0 +1,17 @@
+{
+  "id": "qa_user_creation_001",
+  "scenario": "business_logic_qa",
+  "question": "在用户管理系统中，创建一个新用户的完整业务流程是怎样的？有哪些前置校验？",
+  "answer": {
+    "summary": "创建一个新用户需要调用`UserService`中的`create_user`方法...",
+    "trace": [
+      {
+        "type": "entrypoint",
+        "description": "The primary business logic for creating a new user.",
+        "file_path": "services/user_service.py",
+        "class": "UserService",
+        "method": "create_user"
+      }
+    ]
+  }
+}
